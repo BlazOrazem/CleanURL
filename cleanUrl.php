@@ -32,9 +32,9 @@ function cleanUrl($string)
 	
 	// Replace the rest of the special characters
 	$char_regex1 = '/[^a-z0-9\-.\/]/';	// Any character except: 'a' to 'z', '0' to '9', '\-', '.', '/'
-	$char_regex2 = '/[\-]+/';			// Any character of: '\-' (1 or more times (matching the most amount possible))
-	$char_regex3 = '/<[^>]*>/';			// Any character except: '>' (0 or more times (matching the most amount possible))
-	$char_regex4 = '/\.{2,}/';			// '.' at least 2 times (matching the most amount possible)
+	$char_regex2 = '/[\-]+/';		// Any character of: '\-' (1 or more times (matching the most amount possible))
+	$char_regex3 = '/<[^>]*>/';		// Any character except: '>' (0 or more times (matching the most amount possible))
+	$char_regex4 = '/\.{2,}/';		// '.' at least 2 times (matching the most amount possible)
 	$search = array($char_regex1, $char_regex2, $char_regex3, $char_regex4);
 	$replace = array('', '-', '', '.');
 	$url = preg_replace($search, $replace, $url);
