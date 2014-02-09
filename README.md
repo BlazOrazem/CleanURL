@@ -38,7 +38,6 @@ Support
 -------
 
  * [Homepage](http://www.numencode.com/)
- * [GitHub](https://github.com/BlazOrazem/CleanURL/)
  * <info@numencode.com>
 
 
@@ -55,7 +54,7 @@ License
 CleanURL is issued under a 3-clauses BSD license.
 
 <pre>
-Copyright (c) 2013-2014, Numencode.com
+Copyright (c) 2014, Blaz Orazem @ Numencode.com
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
